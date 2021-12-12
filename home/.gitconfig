@@ -1,0 +1,11 @@
+[user]
+  name = Aziz Köksal
+  email = aziz.koeksal@gmail.com
+[alias]
+  co = checkout
+  # Stashes away only staged files as a branch:
+  stash-index = !~/.gitconfig.sh stash-index
+  si = stash-index
+  rmtag = !~/.gitconfig.sh rmtag
+[init]
+  defaultBranch = main
